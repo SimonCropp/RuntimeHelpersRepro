@@ -16,3 +16,12 @@ public class Usage
         ClassicAssert.AreEqual("value1", subArray[0]);
     }
 }
+
+
+class Consume
+{
+    Consume()
+    {
+        ReadOnlySpan<char> readOnlySpan = ['1'];
+    }
+}
